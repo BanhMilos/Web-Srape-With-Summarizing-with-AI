@@ -8,5 +8,5 @@ public interface SummaryAI {
      * @param url Url to be summarized
      * @return text summary
      */
-    String summary(String url) throws IOException;
+    String summaryUrl(String url) throws IOException;
 }
